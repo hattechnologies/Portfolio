@@ -8,6 +8,7 @@ import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/s
 import { Separator } from "@/components/ui/separator";
 import { List, X } from "@phosphor-icons/react";
 import { InteractiveHoverButton } from "./ui/interactive-hover-button";
+import { AnimatedThemeToggler } from "./ui/animated-theme-toggler";
 
 const navItems = [
   { name: "Services", link: "/services" },
@@ -119,12 +120,16 @@ export function Navigation() {
               </Link>
             </motion.div>
           ))}
+         
         </div>
 
         <div className="hidden md:flex items-center gap-2 shrink-0">
               <InteractiveHoverButton className="border-none">
               <Link href="https://calendly.com/freelance-aitr/30min" className="" target="_blank">Book a call</Link>
               </InteractiveHoverButton>
+               <div className="flex items-center justify-center h-10 w-10 bg-amber-400 hover:bg-amber-600 dark:text-black dark:bg-amber-600  rounded-full hover:bg-accent transition">
+    <AnimatedThemeToggler />
+  </div>
         </div>
 
         <Sheet open={isMobileOpen} onOpenChange={setIsMobileOpen}>
@@ -173,6 +178,11 @@ export function Navigation() {
                   <Separator className="opacity-40" />
                 </motion.div>
               ))}
+               <div className="flex items-center justify-center h-10 w-full  font-light rounded-full hover:bg-accent transition">
+                <div className="flex items-center justify-center w-10 h-10 dark:text-black rounded-full bg-amber-400">
+                <AnimatedThemeToggler />
+                </div>
+  </div>
             </nav>
 
             <motion.div
@@ -188,6 +198,7 @@ export function Navigation() {
               >
                 <Link href="https://calendly.com/freelance-aitr/30min" target="_blank">Book a call</Link>
               </Button>
+              
             </motion.div>
           </SheetContent>
         </Sheet>

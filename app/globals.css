@@ -21,7 +21,6 @@
   }
 }
 
-
 :root {
     --background: oklch(1 0 0);
     --foreground: oklch(0.147 0.004 49.3);
@@ -165,4 +164,9 @@
   html {
     @apply font-sans;
     }
+}
+
+::view-transition-old(root), ::view-transition-new(root) {
+    animation: none;
+    mix-blend-mode: normal;
 }
