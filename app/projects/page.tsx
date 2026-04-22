@@ -21,7 +21,7 @@ const PROJECTS = [
     description: "Learn smarter with Brain Waves’ AI-powered courses. Built using Next.js, Vapi, Prisma, and Postgres.",
     image: "https://ik.imagekit.io/j6ucmu8pi/brainwaves.jpeg",
     live: "https://brainwavezs.vercel.app",
-    github: "https://github.com/AliAbdullah0/AI-Voice-Instructor-For-Studying",
+    github: "",
     alt: "Brainwave Academy Preview",
   },
   {
@@ -29,7 +29,7 @@ const PROJECTS = [
     description: "Real World Flight Reservation System with smooth UX using Tailwind CSS and Shadcn UI.",
     image: "https://ik.imagekit.io/j6ucmu8pi/airwhite.jpeg",
     live: "https://airwhite.vercel.app/",
-    github: "https://github.com/AliAbdullah0/Flight-Reservation-System-with-Next.js-and-Neon-DB",
+    github: "",
     alt: "AirWhite Flight Reservation Preview",
   },
   {
@@ -37,7 +37,7 @@ const PROJECTS = [
     description: "Create mock interviews and practice them using AI. Built with Next.js, Tailwind CSS, and Vapi AI.",
     image: "https://ik.imagekit.io/j6ucmu8pi/vervezz.jpeg",
     live: "https://vervez.vercel.app",
-    github: "https://github.com/AliAbdullah0/AI-Mock-Interviewer",
+    github: "",
     alt: "Verve AI Interviewer Preview",
   },
   {
@@ -45,7 +45,7 @@ const PROJECTS = [
     description: "AI-powered blogging platform with PostgreSQL, Next.js, and Prisma. Features Chatbot integration.",
     image: "https://ik.imagekit.io/j6ucmu8pi/astrax.png",
     live: "https://astrax.vercel.app",
-    github: "https://github.com/AliAbdullah0/PersonalBlogWithRAG-AI",
+    github: "",
     alt: "Astrax Blog Preview",
   },
 ];
