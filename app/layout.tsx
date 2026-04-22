@@ -23,12 +23,15 @@ export const metadata:Metadata = {
   description:
     "Ready to transform your business? Let's build something extraordinary together.",
   manifest: "/site.webmanifest",
+  verification:{
+    google: "qMssJ4fuXVXj-al6M5Pw5NL7w7dzmzPQUVFzMPhKkCM"
+  },
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
-    apple: "/apple-touch-icon.png", // if you add later
+    apple: "/apple-touch-icon.png", 
   },
 };
 
