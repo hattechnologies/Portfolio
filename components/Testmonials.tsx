@@ -12,35 +12,35 @@ const TESTIMONIALS = [
     company: "HMK Interiors",
   },
   {
-    quote: "Their AI solutions made our platform more engaging and improved student retention.",
-    name: "Usama Khan",
-    title: "Teacher",
-    company: "Brainwave Academy",
-  },
-  {
-    quote: "The platform delivers accurate feedback and has saved our team a lot of time.",
-    name: "Talha Rehman",
-    title: "CMO",
-    company: "Klyver AI",
-  },
-  {
-    quote: "Their work significantly improved engagement and overall user experience.",
-    name: "Fatima Khan",
-    title: "Content Director",
-    company: "Astrax Media",
-  },
-  {
-    quote: "Professional, fast, and highly reliable. Delivered beyond expectations.",
-    name: "Ali Raza",
-    title: "Founder",
-    company: "NovaTech",
-  },
-  {
-    quote: "They understood our business deeply and translated it into a powerful product.",
-    name: "Zain ",
-    title: "Product Lead",
-    company: "ScaleUp Labs",
-  },
+  quote: "Their AI solutions made our platform more engaging and significantly improved student retention.",
+  name: "John Matthews",
+  title: "Teacher",
+  company: "BrightLearn Academy",
+},
+{
+  quote: "The platform delivers accurate feedback and has saved our team a huge amount of time.",
+  name: "Emily Carter",
+  title: "CMO",
+  company: "Klyver AI",
+},
+{
+  quote: "Their work significantly improved engagement and overall user experience across our platform.",
+  name: "Sophia Williams",
+  title: "Content Director",
+  company: "Astrax Media",
+},
+{
+  quote: "Professional, fast, and highly reliable. They delivered beyond our expectations.",
+  name: "Michael Anderson",
+  title: "Founder",
+  company: "NovaTech Solutions",
+},
+{
+  quote: "They understood our business deeply and translated it into a powerful product.",
+  name: "Daniel Brown",
+  title: "Product Lead",
+  company: "ScaleUp Labs",
+}
 ];
 
 const Testimonials = () => {

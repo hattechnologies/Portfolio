@@ -79,7 +79,7 @@ export default function Numbers() {
           viewport={{ once: true }}
         >
           <h3 className="text-5xl md:text-6xl font-bold text-foreground">
-            <Counter target={1} suffix="+" />
+            <Counter target={2} suffix="+" />
           </h3>
           <p className="mt-2 text-zinc-400">Years Experience</p>
         </motion.div>
