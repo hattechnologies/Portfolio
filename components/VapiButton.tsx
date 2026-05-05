@@ -13,7 +13,7 @@ export default function VapiFloatingButton() {
   const [showTip, setShowTip] = useState(true);
 
   useEffect(() => {
-    const key = "73c44959-d84a-443e-a5f9-3ae45d9e09f6";
+    const key = process.env.NEXT_PUBLIC_VAPI_PUBLIC_KEY!;
     const vapi = new Vapi(key);
     vapiRef.current = vapi;
 
