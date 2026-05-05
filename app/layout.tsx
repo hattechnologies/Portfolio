@@ -8,6 +8,7 @@ import { SmoothCursor } from "@/components/ui/smooth-cursor";
 import Footer from "@/components/Footer";
 import { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next"
+import VapiButton from "@/components/VapiButton";
 
 const geistMonoHeading = Geist_Mono({subsets:['latin'],variable:'--font-heading'});
 
@@ -52,6 +53,7 @@ export default function RootLayout({
         <ThemeProvider>
           <Navigation/>
           {children}
+          <VapiButton/>
           <Footer/>
           <SmoothCursor/>
           </ThemeProvider>
