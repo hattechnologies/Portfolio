@@ -3,30 +3,42 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { MapPin, Mail } from 'lucide-react';
+import Image from 'next/image';
 
 export default function About() {
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
 
       {/* HERO */}
-      <section className="relative min-h-[100svh] flex items-center bg-zinc-900">
-        <div className="absolute inset-0 bg-[radial-gradient(at_center,#00000088_0%,transparent_70%)]" />
-        
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 py-16">
+      {/* HERO */}
+      <section className="relative min-h-[90vh] flex items-end overflow-hidden">
+        <Image
+          src="https://images.pexels.com/photos/4657257/pexels-photo-4657257.jpeg"
+          alt="HAT Agency office"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/75 to-black/40" />
+
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-12 pb-20 md:pb-28 pt-40">
           <motion.div
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1 }}
-            className="max-w-3xl"
+            transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
           >
-            <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold tracking-tight text-white leading-tight">
-              We build the future.<br />
-              <span className="text-amber-400">
-                One intelligent system at a time.
-              </span>
+            <p className="text-sm font-medium tracking-[0.2em] uppercase text-white/40 mb-6">
+              About Us
+            </p>
+
+            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.05] max-w-4xl text-white">
+              We build the future.{" "}
+              <span className="text-amber-500">One intelligent system at a time.</span>
             </h1>
 
-            <p className="mt-6 sm:mt-8 text-lg sm:text-xl text-white/70">
+            <div className="w-24 h-px bg-amber-500 mt-10 mb-8" />
+
+            <p className="text-lg md:text-xl text-white/50 max-w-xl leading-relaxed font-light">
               HAT is a Pakistan-based digital agency specializing in AI-powered solutions, full-stack development, and modern web experiences.
             </p>
           </motion.div>
@@ -37,20 +49,20 @@ export default function About() {
       <section className="py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12">
           <div className="grid md:grid-cols-12 gap-8 md:gap-16 items-center">
-            
+
             <div className="md:col-span-5">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight">
                 Our Story
               </h2>
 
               <p className="mt-6 text-base sm:text-lg text-muted-foreground">
-                Founded in Islamabad, we started with a simple belief: technology should feel human. 
+                Founded in Islamabad, we started with a simple belief: technology should feel human.
                 Today, we help businesses build intelligent systems that solve real problems.
               </p>
             </div>
 
             <div className="md:col-span-7 text-base sm:text-lg leading-relaxed text-muted-foreground">
-              From AI agents that automate workflows to high-performance websites, 
+              From AI agents that automate workflows to high-performance websites,
               every project is crafted with precision and a deep understanding of your goals.
             </div>
 
@@ -61,7 +73,7 @@ export default function About() {
       {/* VALUES */}
       <section className="py-16 sm:py-24 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12">
-          
+
           <h2 className="text-center text-3xl sm:text-4xl font-bold mb-12 sm:mb-16">
             What drives us
           </h2>
@@ -93,39 +105,22 @@ export default function About() {
         </div>
       </section>
 
-      {/* CONTACT */}
-      <section className="py-16 sm:py-24 bg-foreground text-background">
+      <section className="py-16 px-4 md:px-0 sm:py-24 bg-foreground text-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12">
-          
+
           <div className="grid md:grid-cols-2 gap-10 md:gap-16">
 
             <div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+              <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold">
                 Get in touch
               </h2>
 
-              <div className="mt-8 space-y-6">
-                <div className="flex items-center gap-4">
-                  <Mail className="w-6 h-6" />
-                  <Link href="mailto:hat.technologies.info@gmail.com" className="text-base sm:text-lg hover:underline break-all">
+              <div className="mt-8 space-y-2">
+                <div className="flex items-center gap-3 md:gap-4">
+                  <Mail className="w-5 h-5 md:w-6 md:h-6" />
+                  <Link href="mailto:hat.technologies.info@gmail.com" className="text-sm  sm:text-lg hover:underline ">
                     hat.technologies.info@gmail.com
                   </Link>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">
-                Visit us
-              </h2>
-
-              <div className="mt-6 flex gap-3">
-                <MapPin className="w-6 h-6 mt-1" />
-                <div>
-                  <p className="text-lg">HAT Agency</p>
-                  <p className="text-sm text-muted-foreground/80">
-                    BIC E-8, Islamabad, Pakistan
-                  </p>
                 </div>
               </div>
             </div>
