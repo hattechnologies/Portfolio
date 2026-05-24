@@ -389,7 +389,7 @@ export default function ServicesPage() {
               className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight"
             >
               Want to Know how we help businesses to
-              <span className="text-amber-500"> grow ?</span>?
+              <span className="text-amber-500"> grow </span>?
             </motion.h2>
 
             <motion.p
