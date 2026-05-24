@@ -1,6 +1,7 @@
 import AutomationText from '@/components/AutomationText'
 import Contact from '@/components/Contact'
 import Hero from '@/components/Hero'
+import AICtaBanner from '@/components/AICtaBanner'
 import HowWeWork from '@/components/HowWeWork'
 import Numbers from '@/components/Numbers'
 import Services from '@/components/Services'
@@ -16,6 +17,7 @@ const Home = () => {
       <HowWeWork/>
       <AppProcessCards/>
       <Numbers/>
+      <AICtaBanner/>
       <Testimonials/>
       <Contact/>
     </>
