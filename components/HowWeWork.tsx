@@ -5,7 +5,7 @@ const HowWeWork = () => {
     <div className="relative w-full mb-12">
       <div className="relative w-full h-[50vw] md:h-[40vw] lg:h-[30vw]">
         <Image
-          src="https://ik.imagekit.io/j6ucmu8pi/stevepb-karate-1665747.jpg"
+          src="https://images.pexels.com/photos/34590948/pexels-photo-34590948.jpeg"
           alt="Process Illustration"
           fill
           className="object-cover"

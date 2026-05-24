@@ -35,11 +35,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           <h3 className="text-xl font-semibold text-background">Contact</h3>
           <p className="text-zinc-400">
-            BIC E-8, Islamabad<br />
-            Pakistan
-          </p>
-          <p className="text-zinc-400">
-            Email: <a href="mailto:hat.technologies.info@gmail.com" className="hover:text-amber-500 transition-colors">hat.technologies.info@gmail.com</a><br />
+            Email: <a href="mailto:info@hattechnologies.tech" className="hover:text-amber-500 transition-colors">info@hattechnologies.tech</a><br />
           </p>
         </div>
       </div>
