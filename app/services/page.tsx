@@ -388,8 +388,8 @@ export default function ServicesPage() {
               variants={fadeIn}
               className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight"
             >
-              Ready to build something
-              <span className="text-amber-500"> extraordinary</span>?
+              Want to Know how we help businesses to
+              <span className="text-amber-500"> grow ?</span>?
             </motion.h2>
 
             <motion.p
@@ -397,7 +397,7 @@ export default function ServicesPage() {
               variants={fadeIn}
               className="mt-6 text-lg md:text-xl text-background/50 max-w-lg mx-auto font-light"
             >
-              Let&apos;s discuss your project and craft a solution tailored to your goals.
+              Let's discuss your business and talk about what can AI bring in to your workload
             </motion.p>
 
             <motion.div
