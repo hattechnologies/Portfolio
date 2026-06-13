@@ -147,7 +147,7 @@ const ServiceRow = ({ service, index }: { service: any; index: number }) => {
             {String(index + 1).padStart(2, "0")}
           </span>
           <div className="min-w-0 flex-1 relative overflow-hidden">
-            <h3 className="text-lg md:text-xl font-medium text-foreground group-hover:text-foreground transition-colors duration-300">
+            <h3 className="text-lg md:text-xl font-medium dark:text-amber-500 text-foreground group-hover:text-foreground transition-colors duration-300">
               {service.title}
             </h3>
             <div className="relative mt-1 min-h-[20px] py-2 overflow-hidden">
