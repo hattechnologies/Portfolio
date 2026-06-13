@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image";
 import { InteractiveHoverButton } from "./ui/interactive-hover-button";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -21,9 +22,11 @@ const Contact = () => {
         <p className="text-lg sm:text-xl md:text-xl text-zinc-700">
           Let's talk! We’d love to hear about your project and explore how we can help.
         </p>
+        <Link href="https://calendly.com/freelance-aitr/30min" className="" target="_blank">
         <InteractiveHoverButton className="rounded-full w-fit bg-foreground px-5 sm:px-6 py-2 sm:py-3 font-semibold text-background shadow-lg border-none text-sm sm:text-base">
           Get in Touch
         </InteractiveHoverButton>
+        </Link>
       </div>
     </section>
   );
