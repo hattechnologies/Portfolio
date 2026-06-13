@@ -56,7 +56,7 @@ export default function About() {
               </h2>
 
               <p className="mt-6 text-base sm:text-lg text-muted-foreground">
-                Founded in Islamabad, we started with a simple belief: technology should feel human.
+                We started with a simple belief: technology should feel human.
                 Today, we help businesses build intelligent systems that solve real problems.
               </p>
             </div>
@@ -118,8 +118,8 @@ export default function About() {
               <div className="mt-8 space-y-2">
                 <div className="flex items-center gap-3 md:gap-4">
                   <Mail className="w-5 h-5 md:w-6 md:h-6" />
-                  <Link href="mailto:hat.technologies.info@gmail.com" className="text-sm  sm:text-lg hover:underline ">
-                    hat.technologies.info@gmail.com
+                  <Link href="mailto:info@hattechnologies.tech" className="text-sm  sm:text-lg hover:underline ">
+                    info@hattechnologies.tech
                   </Link>
                 </div>
               </div>
