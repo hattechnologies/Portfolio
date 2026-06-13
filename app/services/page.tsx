@@ -139,7 +139,7 @@ const ServiceRow = ({ service, index }: { service: any; index: number }) => {
       transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="group border-t border-border/60 last:border-b transition-all duration-300 hover:bg-neutral-50 px-6 -mx-6"
+      className="group  transition-all duration-300 hover:bg-neutral-50 dark:hover:bg-neutral-800 px-6 -mx-6"
     >
       <div className="flex items-start sm:items-center justify-between gap-4 py-6 md:py-7">
         <div className="flex items-start sm:items-center gap-4 md:gap-6 flex-1 min-w-0">
@@ -165,7 +165,7 @@ const ServiceRow = ({ service, index }: { service: any; index: number }) => {
                 transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
                 className="absolute inset-0 text-sm font-light flex items-center"
               >
-                <span className="text-black/60 font-light mr-1.5">Impact:</span>
+                <span className="text-black/60 dark:text-white font-light mr-1.5">Impact:</span>
                 <span className="text-amber-600">{service.how}</span>
               </motion.p>
             </div>
